@@ -14,8 +14,12 @@ The site is built on [Siteleaf](http://siteleaf.com), which makes running it loc
 - Run `siteleaf server` and go to [http://localhost:9292/](http://localhost:9292/)
 
 
-##### Hacking
-- Update the contents of /assets
+- Make your changes locally
+- Once you're happy with your changes, run `siteleaf push theme` to put your local changes on the remote
+- Click `Publish changes` to push **content and code** changes
+
+###### Also...
+- For more info, check the [Siteleaf theme documentation](http://www.siteleaf.com/help/themes/)
 - The CSS and JS are built on top of [v0](https://github.com/jheftmann/v0), so refer to the [documentation](https://github.com/jheftmann/v0), particularly [this part](https://github.com/jheftmann/v0#run-it-locally) on compiling LESS and JS.
 
 
